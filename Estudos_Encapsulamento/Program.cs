@@ -9,6 +9,8 @@ namespace App{
 
             Produto p = new Produto();
 
+            p.SetNome("Pedro");
+
             Console.WriteLine($"Hello World! {p.GetNome()}");
         }
     }

@@ -15,6 +15,10 @@ namespace Estudos_Encapsulamento
         {
             return _nome;
         }
+        public void SetNome(string nome)
+        {
+            _nome = nome;
+        }
 
 
 
