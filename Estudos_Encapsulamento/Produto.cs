@@ -7,7 +7,7 @@ namespace Estudos_Encapsulamento
     internal class Produto
     {
         private string _nome = "jose";
-        private long _descricao;
+        private string _descricao = "objeto bom";
         private double _preco;
 
 
@@ -15,10 +15,14 @@ namespace Estudos_Encapsulamento
         {
             return _nome;
         }
-        public void SetNome(string nome)
+        
+
+        public string Descricao
         {
-            _nome = nome;
+            get { return _descricao; }
+            set { _descricao = value; }
         }
+
 
 
 
