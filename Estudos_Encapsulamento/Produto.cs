@@ -6,9 +6,15 @@ namespace Estudos_Encapsulamento
 {
     internal class Produto
     {
-        private string nome;
-        private long descricao;
-        private double preco;
+        private string _nome = "jose";
+        private long _descricao;
+        private double _preco;
+
+
+        public string GetNome()
+        {
+            return _nome;
+        }
 
 
 
