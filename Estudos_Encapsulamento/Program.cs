@@ -13,7 +13,10 @@ namespace App{
             p.Nome = Console.ReadLine();
             Console.Write("Digite a descrição do produto");
             p.Descricao = Console.ReadLine();
+            Console.Write("Qual o valor do produto: ");
+            p.preco = double.Parse(Console.ReadLine());
 
+            Console.WriteLine($"{p.preco}");
 
         }
     }

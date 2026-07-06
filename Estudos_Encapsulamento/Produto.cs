@@ -27,10 +27,6 @@ namespace Estudos_Encapsulamento
             get { return _preco; }
             set
             {
-                if (value < 0)
-                {
-                    throw new ArgumentException("O preço não pode ser negativo.");
-                }
                 if (value >= 10) { }
                 _preco = value;
             }
