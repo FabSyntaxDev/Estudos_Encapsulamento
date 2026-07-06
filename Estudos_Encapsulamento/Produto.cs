@@ -22,6 +22,10 @@ namespace Estudos_Encapsulamento
             get { return _descricao; }
             set { _descricao = value; }
         }
+        public double preco
+        {
+            get { return _preco; }
+        }
 
 
 
