@@ -9,9 +9,11 @@ namespace App{
 
             Produto p = new Produto();
 
-            p.Descricao = "Produto teste";
-          
-            Console.WriteLine($"Hello World! {p.Descricao}");
+            Console.WriteLine("Digite seu nome: ");
+            p.Nome = Console.ReadLine();
+
+            Console.WriteLine(p.Nome);
+
         }
     }
 

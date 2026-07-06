@@ -11,11 +11,11 @@ namespace Estudos_Encapsulamento
         private double _preco;
 
 
-        public string GetNome()
+        public string Nome
         {
-            return _nome;
+            get { return _nome; }
+            set { _nome = value; }
         }
-        
 
         public string Descricao
         {
