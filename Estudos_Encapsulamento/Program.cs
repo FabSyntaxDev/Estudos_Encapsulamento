@@ -9,6 +9,10 @@ namespace App{
 
             Produto p = new Produto();
 
+
+            Console.WriteLine("digite seu nick de usuario");
+            p.nick = Console.ReadLine();
+
             Console.Write("Digite seu nome: ");
             p.Nome = Console.ReadLine();
             Console.Write("Digite a descrição do produto");
