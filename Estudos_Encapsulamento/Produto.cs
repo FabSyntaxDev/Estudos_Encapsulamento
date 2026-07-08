@@ -7,8 +7,10 @@ namespace Estudos_Encapsulamento
     internal class Produto
     {
         private string _nome = "jose";
+        public string _nick;
         private string _descricao = "objeto bom";
         private double _preco;
+
 
 
         public string Nome
