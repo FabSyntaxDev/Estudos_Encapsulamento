@@ -13,6 +13,20 @@ namespace Estudos_Encapsulamento
 
 
 
+
+
+
+
+
+
+
+        public string nick
+        {
+            get { return _nick; }
+            set { _nick = value; }
+        }
+
+
         public string Nome
         {
             get { return _nome; }
